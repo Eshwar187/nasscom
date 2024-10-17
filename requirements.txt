@@ -1,0 +1,15 @@
+Flask
+mysql-connector-python
+tensorflow
+scikit-learn
+openai
+
+
+
+/
+│
+├── app.py                     # Python file with back-end code (Flask, AI, MySQL)
+├── index.html                  # Front-end file with HTML and JavaScript for sensor feedback
+├── create_sensor_table.sql     # SQL file for creating the MySQL table
+├── .env                        # Environment variables (API keys, DB credentials)
+├── requirements.txt            # Python dependencies
